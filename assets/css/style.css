@@ -1,0 +1,25 @@
+:root{--pink:#ff4da6;--ink:#2c2c2c;--bg:#fff5f9;--card:#ffffffc8}
+*{box-sizing:border-box}html,body{margin:0;height:100%}
+body{font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);
+background:radial-gradient(1200px 600px at 20% 0%,#ffe1ec 0%,transparent 60%),radial-gradient(900px 500px at 90% 10%,#ffeede 0%,transparent 70%),var(--bg)}
+a{text-decoration:none;color:inherit}.container{max-width:1100px;margin:0 auto;padding:20px}
+.nav{position:sticky;top:0;z-index:50;background:#ffffffb0;border-bottom:1px solid #fff3;backdrop-filter:blur(10px)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 20px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;color:#c4007a}
+.badge{background:#fff;border:1px solid #0001;border-radius:12px;padding:6px 10px;font-size:12px}
+.hero{padding:40px 20px;text-align:center}h1{font-size:clamp(26px,4vw,42px);margin:10px 0;color:#c4007a}
+.subtitle{opacity:.9;max-width:780px;margin:10px auto 0;line-height:1.7}
+.row{display:grid;grid-template-columns:1.1fr .9fr;gap:18px}@media(max-width:900px){.row{grid-template-columns:1fr}.hero{padding-top:24px}}
+.card{background:var(--card);border:1px solid #fff6;border-radius:18px;padding:18px;box-shadow:0 10px 30px rgba(0,0,0,.07)}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:14px;border:1px solid #0001;background:#000;color:#fff}
+.btn.ghost{background:#fff;color:#000}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.thumb{display:block;text-align:center;border:1px solid #0001;background:#fff;border-radius:14px;padding:14px}.thumb span{display:block;margin-top:6px;font-weight:600}
+.portrait{width:260px;height:260px;object-fit:cover;border-radius:50%;box-shadow:0 10px 30px rgba(255,77,166,.35)}
+.count{font-weight:700;margin:8px 0;color:#a80062}.footer{font-size:13px;opacity:.8;text-align:center;margin:30px 0}
+.gallery{columns:1;column-gap:14px}@media(min-width:700px){.gallery{columns:2}}@media(min-width:1100px){.gallery{columns:3}}
+.gallery img{width:100%;margin:0 0 14px;border-radius:14px;border:1px solid #fff8;display:block}
+.hl{background:linear-gradient(90deg,#ffd7ea,#ffe7d2);padding:6px 10px;border-radius:10px;border:1px solid #fff;display:inline-block}
+.headline-orn{display:flex;gap:8px;justify-content:center;align-items:center;flex-wrap:wrap}.orn{font-size:20px}
+.list-love{list-style:'💗 ';padding-left:18px;line-height:1.9}
+.reminder li{background:#fff;border:1px solid #0001;border-radius:12px;padding:10px 12px;margin:8px 0}
+.musicbar{display:flex;gap:8px;justify-content:center;margin-top:10px}
